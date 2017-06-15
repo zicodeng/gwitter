@@ -1,5 +1,5 @@
-# Gwitter 1.0
-**Project Link: gwitteruw.herokuapp.com
+# Gwitter
+**Project Link:** http://gwitteruw.herokuapp.com
 
 **Project Start Date:** Monday, 28 November 2016
 

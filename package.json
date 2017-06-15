@@ -1,0 +1,38 @@
+{
+  "name": "team4-challenge7",
+  "version": "1.0.0",
+  "description": "**Project Start Date:** Monday, 28 November 2016 <br/>\r **Project Deadline:** Thursday, 8 December 2016",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server",
+    "start": "npm run build && node ./src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/info343e-au16/team4-challenge7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/info343e-au16/team4-challenge7/issues"
+  },
+  "homepage": "https://github.com/info343e-au16/team4-challenge7#readme",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "express": "^4.14.0",
+    "json-loader": "^0.5.4",
+    "node-twitter-api": "^1.8.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "request": "^2.79.0",
+    "webpack": "^2.1.0-beta.27"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.1.0-beta.11"
+  }
+}

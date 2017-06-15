@@ -1,0 +1,126 @@
+.hidden {
+    display: none;
+}
+
+.search-form {
+    width: 50%;
+}
+
+#map {
+    height: 100%;
+}
+
+html, body {
+    height: 88%;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 450px) {
+    html, body {
+        height: 75%;
+    }
+}
+
+.hashtag {
+    color: #1dcaff;
+}
+
+.search-form {
+    width: 40%;
+    margin-top: 9px;
+    padding-right: 15px;
+    position: fixed;
+    z-index: 999;
+    right: 0px;
+}
+
+header {
+    display: block;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.count-info {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.count-info .count {
+    color: darkred;
+    font-weight: bold;
+}
+
+.tweet-content {
+    padding-left: 20px;
+}
+
+.tweet-content img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    margin-top: -25px;
+}
+
+.tweet-content h1 {
+    display: inline-block;
+    font-family: 'Russo One', sans-serif;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+.tweet-content .text {
+    color: black;
+    padding-top: 10px;
+}
+
+.tweet-content p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.tweet-content .date, .tweet-content .location {
+    color: #1dcaff;
+    font-size: 14px;
+}
+
+.query-value {
+    background-color: #1dcaff;
+}
+
+.new-search {
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease; /* Safari 3.1 to 6.0 */
+    margin-top: 45px;
+    margin-right: 15px;
+    position: fixed;
+    z-index: 999;
+    right: 0px;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(33, 33, 33, 0.4);
+}
+
+.new-search:hover {
+    color: white;
+    background-color: #1dcaff;
+}
+
+.glyphicon.glyphicon-search.search-icon {
+    padding-left: 5px;
+}
